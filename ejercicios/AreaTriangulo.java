@@ -26,6 +26,7 @@ public class AreaTriangulo {
 		
 		/*Presentamos la informacion al usuario*/
 		System.out.println("El Area del triangulo es: " + area);
+		sc.close();
 		
 
 	}

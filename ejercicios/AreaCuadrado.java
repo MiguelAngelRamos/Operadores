@@ -7,7 +7,7 @@ public class AreaCuadrado {
 		double lado;
 		double area;
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Ingrese el lado");
+		System.out.println("Ingrese el lado: ");
 		lado = sc.nextDouble();
 		area = lado * lado;
 		System.out.println("El area del cuadrado de lado " + lado + " es: " + area);
